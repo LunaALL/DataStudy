@@ -2,11 +2,14 @@ print("hello word")
 
 seq = ["alpha", "red", "beta", "front"]
 print(seq[0])
-se=dict(enumerate(seq))
-print(se)
+print(dict(enumerate(seq)))
 
-jointest=", ".join(seq)
-print(jointest)
+lona = ", ".join(seq)
+print(lona)
 
 
 print("start\n"*20)
+
+print( "-".join("010.1234.4567".split(".")))
+
+
