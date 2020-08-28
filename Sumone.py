@@ -1,5 +1,5 @@
 from collections import Counter
-phe = "김,감,김,김,우,우,사,시,시,사"
+phe = "김,감,김"
 ctnr = Counter(phe.split(","))
 
 dic1= dict(ctnr.most_common())
