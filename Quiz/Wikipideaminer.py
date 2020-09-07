@@ -19,6 +19,7 @@ print(words)
 words = [w.lower() for w in words]
 print(words)
 
-#불용어(the 같은것) 을 제거하고 단어의 형태소 추출
-words = [ls.stem(w) for w in words if w not in stopwords.words("english") and w.isalnum()]
-print(words)
+#불용어(the 같은것) 을 제거하고 단어의 형태소 추출 패스 nltk 패키지 문제
+
+freqs= Counter(words)
+print(freqs.most_common(10))
