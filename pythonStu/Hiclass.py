@@ -18,9 +18,8 @@ class 학생:
 
 
     def allprint(self):
-        print("이름 ="%self.이름)
-        print("학번 =" % self.학번)
-        print("나이 =" % self.나이)
-        print("학년 =" % self.학년)
+        print("이름 = %s" %self.이름)
+        print("학번 =%d" % self.학번)
+        print("나이 =%d" % self.나이)
+        print("학년 =%d" % self.학년)
 
-    
